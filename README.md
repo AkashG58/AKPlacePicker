@@ -1,7 +1,5 @@
 # AKPlacePicker
-Custom place picker using google map
-
-![Sample](https://raw.githubusercontent.com/AkashG58/AKPlacePicker/master/Screenshot_20191126-114459_AKPlacePickerExample.jpg)
+Custom place picker using google map [Sample](https://raw.githubusercontent.com/AkashG58/AKPlacePicker/master/Screenshot_20191126-114459_AKPlacePickerExample.jpg)
 
 ## Download
 
