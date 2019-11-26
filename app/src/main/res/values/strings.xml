@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AKPlacePickerExample</string>
+
+    <string name="google_maps_api_key">Your API Key</string>
+
+
+</resources>

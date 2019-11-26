@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AKPlacePicker</string>
+
+
+    <string name="select_address">Select Address</string>
+    <string name="no_address">Not a valid Address</string>
+    <string name="search_address">Search Address</string>
+    <string name="confirm_address">Confirm Address</string>
+
+</resources>

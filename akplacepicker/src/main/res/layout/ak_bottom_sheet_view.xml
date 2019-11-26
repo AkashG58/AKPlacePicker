@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    >
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/place_chosen_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:scaleType="center"
+      app:backgroundTint="@color/colorPrimary"
+      app:elevation="3dp"
+      app:fabSize="normal"
+      android:visibility="gone"
+      app:layout_anchor="@id/root_bottom_sheet"
+      app:layout_anchorGravity="top|end"
+      app:srcCompat="@android:drawable/checkbox_on_background"
+      app:tint="@color/white"
+      />
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/root_bottom_sheet"
+      android:layout_width="match_parent"
+      app:cardElevation="@dimen/dimen5dp"
+      app:cardCornerRadius="@dimen/dimen5dp"
+      app:cardBackgroundColor="@color/white"
+      android:layout_marginEnd="@dimen/dimen10dp"
+      android:layout_marginStart="@dimen/dimen10dp"
+      app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+      <include
+          layout="@layout/ak_bottom_header_view"/>
+
+    </LinearLayout>
+
+
+  </androidx.cardview.widget.CardView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
