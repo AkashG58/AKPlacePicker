@@ -27,7 +27,7 @@ dependencies {
 ## Hands on
 Check the [sample](https://github.com/AkashG58/AKPlacePicker) project for a full working example.
 
-### -Java
+#### Java
 
 ```Java
 Intent intent = new PlacePicker.IntentBuilder()
@@ -50,3 +50,8 @@ protected void onActivityResult(int requestCode, int resultCode, @Nullable Inten
            }
        }
 }
+
+## License
+
+AKPlacePicker is released under the MIT license. [See LICENSE](https://github.com/AkashG58/AKPlacePicker/blob/master/LICENSE) for details.
+
