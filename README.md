@@ -8,20 +8,21 @@ How to
 To get a Git project into your build:
 
 Step 1. Add it in your root build.gradle at the end of repositories:
-
+```Java
 allprojects {
 	repositories {
 		...
 		maven { url 'https://jitpack.io' }
 	}
 }
+```
 
 Step 2. Add the dependency
-
+```Java
 dependencies {
        implementation 'com.github.AkashG58:AKPlacePicker:1.0.0'
 }
-
+```
 
 ## Hands on
 Check the [sample](https://github.com/AkashG58/AKPlacePicker) project for a full working example.
